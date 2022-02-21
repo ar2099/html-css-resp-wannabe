@@ -4,6 +4,54 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: blue;
+}
+
+.row {
+  background-color: yellow;
+}
+#lezioni .row>.left {
+  background-color: red;
+}
+
+#lezioni .row>.right {
+  background-color: greenyellow;
+}
+
+#lezioni {
+  background-color: aqua;
+}
+
+#steps .row>.left {
+  background-color: red;
+}
+
+#steps .row>.central {
+  background-color: pink;
+}
+
+
+#steps .row>.right {
+ background-color: greenyellow;
+}
+
+#steps {
+  background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .row {
   width: 992px;
   margin-left: auto;
