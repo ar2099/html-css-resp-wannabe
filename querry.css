@@ -1,0 +1,17 @@
+@media screen and (min-width: 0px) and (max-width: 620px) {
+    .row {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* BLOCCO LEZIONI */
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 90%;
+  
+  
+}
+}
