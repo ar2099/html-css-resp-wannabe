@@ -1,4 +1,4 @@
-@media screen and (min-width: 0px) and (max-width: 620px) {
+@media screen and (min-width: 0px) and (max-width: 420px) {
     .row {
         width: 100%;
         margin: auto;
@@ -8,10 +8,58 @@
     }
 
     /* BLOCCO LEZIONI */
-#lezioni .row>.left,
-#lezioni .row>.right {
-  width: 90%;
-  
-  
-}
+        #lezioni .row>.left,
+        #lezioni .row>.right {
+        width: 90%;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        
+        }
+
+        
+
+        #lezioni {
+        background-color: #F2F2CD;
+        padding-top: 15px;
+        
+        }
+
+        /* BLOCCO STEPS */
+        #steps .row>.left,
+        #steps .row>.central,
+        #steps .row>.right {
+        width: 90%;
+         margin-bottom: 15px;
+        margin-top: 15px;
+        }
+
+    
+
+        #steps  {
+         background-color: white;
+         padding-top: 15px;
+        }
+
+        /* BLOCCO PERCHE */
+    #why {
+    text-align: center;
+    padding-top: 15px;
+    background-color: #F2F2CD;
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+    width: 90%;
+    
+    }
+
+
+
+
+
+
+
+
+
 }
