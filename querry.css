@@ -1,0 +1,43 @@
+/* questo serve come file temporaneo per mettere 
+i file querry per poi metterlo nel file principale  */
+
+@media screen and (min-width: 0px) and (max-width: 620px) {
+    #lezioni {
+        background-color: #F2F2CD;
+    }
+
+
+    #why {
+        background-color: #F2F2CD;
+    }
+
+    .row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+    /* BLOCCO LEZIONI */
+#lezioni .row .left,
+#lezioni .row .right {
+  width: 90%;
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#lezioni .row img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#lezioni {
+  text-align: center;
+}
+
+
+}
